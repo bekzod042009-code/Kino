@@ -17,7 +17,7 @@ from aiogram.types import (
 logging.basicConfig(level=logging.INFO)
 
 # ============ SOZLAMALAR ============
-BOT_TOKEN = "BOTFATHER_DAN_OLGAN_TOKEN"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Admin qila oladigan foydalanuvchilar ID'lari (o'zingiznikini kiriting)
 # ID ni bilish uchun @userinfobot ga /start bosing
